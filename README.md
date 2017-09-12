@@ -16,7 +16,7 @@ the algorithm to model the lifecycle of the strange organism found attached to
 an artefact brought back from Mars. To be truthful none of the research teams
 working on two continents have been able to deliver a bug-free (pardon the pun)
 solution capable of handling an arbitrary number of generations nor a boundless
-world. The project sponsor has thretened to cease funding this research
+world. The project sponsor has threatened to cease funding this research
 project.
 
 Your role is to implement the algorithm in any programming language available on
@@ -48,8 +48,12 @@ the long run the output eventually converges, in theory.
 
 ## Examples
 
+Formatted screen captures of Generation 0 (Seed) and Generation 1 are in the
+images subdirectory.
+
 Generation 0 (Seed)
 
+<pre>
    1  2  3  4  5  6  7  8
 
 1        *  *           *
@@ -67,10 +71,11 @@ Generation 0 (Seed)
 7     *  *  *  *  *  *  *
 
 8  *     *        *  *
-
+</pre>
 
 Generation 1
 
+<pre>
    1  2  3  4  5  6  7  8
 
 1     *     *        *  *
@@ -88,6 +93,7 @@ Generation 1
 7  *                    *
 
 8        *              *
+</pre>
 
 The struggle for survival continues for some number, n, of generations. Your
 solution should be able to show the survival state for any positive value of n.
