@@ -146,13 +146,12 @@ ability to reverse time in this universe.\n");
 int main(void)
 {
 
-    int *gen; int gens; int ok; int n;
+    int *gen; int ok; int n;
     n = get_int()+1;
     if ( !n ) { return -1; }
-    gens = n;
     gen = gen0;
 
-    for(int j = 0; j < gens; j++ )
+    for(int j = 0; j < n; j++ )
     {
         print_array(gen, j);
         ok = make_next_gen(gen);
